@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'enquet.apps.EnquetConfig',
     #trabalha com administracao do site
     'django.contrib.admin',
     #autenticacao de usuario
